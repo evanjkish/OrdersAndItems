@@ -61,7 +61,7 @@ public class Order {
         return total;
     }
     
-    public Order display(){
+    public void display(){
         System.out.println("Name: " + this.name);
         for(Item i: this.items){
             System.out.println(i.getName() + " -$" + i.getPrice());

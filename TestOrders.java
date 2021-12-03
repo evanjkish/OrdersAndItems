@@ -24,9 +24,21 @@ public class TestOrders {
 
         Order order2 = new Order();
 
-        Order order3 = new Order();
+        Order order3 = new Order("Leo");
 
-        Order order4 = new Order();
+        Order order4 = new Order("Ally");
+
+        Order order5 = new Order("Rosie");
+        
+        order1.addItem(item3);
+        order1.addItem(item3);
+        order2.addItem(item2);
+        order2.addItem(item2);
+        order3.addItem(item3);
+        order3.addItem(item3);
+        order4.addItem(item4);
+        order4.addItem(item4);
+
 
     }
 }
